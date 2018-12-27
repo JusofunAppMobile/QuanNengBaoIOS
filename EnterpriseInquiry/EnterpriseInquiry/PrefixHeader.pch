@@ -1,0 +1,57 @@
+//
+//  PrefixHeader.pch
+//  框架
+//
+//  Created by WangZhipeng on 16/5/18.
+//  Copyright © 2016年 WangZhipeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import "BasicViewController.h"
+#import "URLManager.h"
+#import "Macros.h"
+#import "Constants.h"
+#import "UIView+Extensions.h"
+#import "NSNumber+StringValue.h"
+#import "Tools.h"
+#import "RequestManager.h"
+
+#import "MBProgressHUD+Add.h"
+#import "MBProgressHUD.h"
+
+#import "User.h"
+#import <ShareSDK/ShareSDK.h>
+
+#import <UMMobClick/MobClick.h>
+
+//MJ
+#import "MJExtension.h"
+
+
+//SDWebImage
+#import <UIImageView+WebCache.h>
+
+//切圆角
+#import "UIView+RoundedCorner.h"
+
+//自动布局
+#import "Masonry.h"
+
+#import "Tools.h"
+
+#import "BaiduMobStat.h"
+
+//#import <WXApi.h>
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
